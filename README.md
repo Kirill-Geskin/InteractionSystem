@@ -24,9 +24,7 @@ Any player within local multiplayer can interact with the lever.
 - The lever can interact with any number of doors
 - The door changes state when interacting with the lever
 
-
-
-
+https://user-images.githubusercontent.com/80645926/213779769-9eeca738-40e9-471d-9b41-c83f9a730049.mp4
 
 
 ## Инструкция по сборке. 
@@ -52,3 +50,6 @@ Any player within local multiplayer can interact with the lever.
 - Можно настраивать с чем может взаимодейстовать персонаж 
 - Рычаг может взаимодействовать с любым количеством дверей
 - Дверь меняет состояние при взаимодействии с рычагом 
+
+
+https://user-images.githubusercontent.com/80645926/213779769-9eeca738-40e9-471d-9b41-c83f9a730049.mp4
