@@ -38,6 +38,10 @@ Also, the functionality for getting the name that we enter into the widget at st
 W_PlayerNameWidget
 ![Снимок экрана 2023-01-21 191804](https://user-images.githubusercontent.com/80645926/213874069-ccdc7823-c1d9-4922-a475-0c35138251a4.jpg)
 
+- An example of solving the replication problem can be found in the `Player Name Component` class
+
+    [PlayerNameComponent](https://github.com/Kirill-Geskin/InteractionSystem/blob/main/Source/InteractionSystem/Components/PlayerNameComponent.cpp)
+
 ## Инструкция по сборке. 
 
 - Версия Unreal Engine 5.1 или выше. 
@@ -67,7 +71,7 @@ https://user-images.githubusercontent.com/80645926/213779769-9eeca738-40e9-471d-
 
 ## Дополнительно 
 
-- Часть функциональности раскрывает C++ в Blueprints. Например, в классе Door поворот двери настраивается внутри в blueprints класса.
+- Часть функциональности C++ раскрывается в Blueprint в редакторе. Например, в классе Door поворот двери настраивается внутри в blueprint класса.
 
 BP_Door
 ![Снимок экрана 2023-01-21 191201](https://user-images.githubusercontent.com/80645926/213873771-015e9eaf-fe28-40ec-af89-99b9be039dc3.jpg)
@@ -76,3 +80,7 @@ BP_Door
 
 W_PlayerNameWidget
 ![Снимок экрана 2023-01-21 191804](https://user-images.githubusercontent.com/80645926/213874069-ccdc7823-c1d9-4922-a475-0c35138251a4.jpg)
+
+- Пример решения задачи репликации можно посмотреть в классе `Player Name Component`
+
+    [PlayerNameComponent](https://github.com/Kirill-Geskin/InteractionSystem/blob/main/Source/InteractionSystem/Components/PlayerNameComponent.cpp)
