@@ -18,16 +18,29 @@ Works with local multiplayer, the number of players is not limited.
 The level has a "Lever" object that remotely activates (opens/closes) the "Door" object.
 Any player within local multiplayer can interact with the lever.
 
-**Additional details for solving **Task №2:**
+**Additional details for solving Task №2:**
 
 - You can customize what the character can interact with
 - The lever can interact with any number of doors
 - The door changes state when interacting with the lever
 
+https://user-images.githubusercontent.com/80645926/213779769-9eeca738-40e9-471d-9b41-c83f9a730049.mp4
 
+## Additionally
 
+- Part of the functionality is exposed by C++ in Blueprints. For example, in the Door class, the rotation of the door is configured internally in the blueprints of the class.
 
+BP_Door
+![Снимок экрана 2023-01-21 191201](https://user-images.githubusercontent.com/80645926/213873771-015e9eaf-fe28-40ec-af89-99b9be039dc3.jpg)
 
+Also, the functionality for getting the name that we enter into the widget at startup.
+
+W_PlayerNameWidget
+![Снимок экрана 2023-01-21 191804](https://user-images.githubusercontent.com/80645926/213874069-ccdc7823-c1d9-4922-a475-0c35138251a4.jpg)
+
+- An example of solving the replication problem can be found in the `Player Name Component` class
+
+    [PlayerNameComponent](https://github.com/Kirill-Geskin/InteractionSystem/blob/main/Source/InteractionSystem/Components/PlayerNameComponent.cpp)
 
 ## Инструкция по сборке. 
 
@@ -52,3 +65,22 @@ Any player within local multiplayer can interact with the lever.
 - Можно настраивать с чем может взаимодейстовать персонаж 
 - Рычаг может взаимодействовать с любым количеством дверей
 - Дверь меняет состояние при взаимодействии с рычагом 
+
+
+https://user-images.githubusercontent.com/80645926/213779769-9eeca738-40e9-471d-9b41-c83f9a730049.mp4
+
+## Дополнительно 
+
+- Часть функциональности C++ раскрывается в Blueprint в редакторе. Например, в классе Door поворот двери настраивается внутри в blueprint класса.
+
+BP_Door
+![Снимок экрана 2023-01-21 191201](https://user-images.githubusercontent.com/80645926/213873771-015e9eaf-fe28-40ec-af89-99b9be039dc3.jpg)
+
+Так же, и функционал для получения имени которое, мы вводим в виджет при старте.  
+
+W_PlayerNameWidget
+![Снимок экрана 2023-01-21 191804](https://user-images.githubusercontent.com/80645926/213874069-ccdc7823-c1d9-4922-a475-0c35138251a4.jpg)
+
+- Пример решения задачи репликации можно посмотреть в классе `Player Name Component`
+
+    [PlayerNameComponent](https://github.com/Kirill-Geskin/InteractionSystem/blob/main/Source/InteractionSystem/Components/PlayerNameComponent.cpp)
